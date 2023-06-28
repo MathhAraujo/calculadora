@@ -2,8 +2,12 @@ fun main(){
 
 }
 
-fun soma(){}
-fun sub(){}
+fun soma(n: Int, n2: Int): Int{
+    return n+n2
+}
+fun sub(n: Int, n2: Int): Int{
+    return n-n2
+}
 fun mult(n: Int, n2: Int): Int{
     return n*n2
 }
